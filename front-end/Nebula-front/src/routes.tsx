@@ -18,9 +18,9 @@ export const AppRoutes = () => {
 
                 <Route path='/planos' element={<Planos/>}/>
 
-                <Route path='/Servidores' element={<Servidores/>}/>
+                <Route path='/servidores' element={<Servidores/>}/>
 
-                <Route path='/Suporte' element={<Suporte/>}/>
+                <Route path='/suporte' element={<Suporte/>}/>
 
 
               
