@@ -61,7 +61,7 @@ export default function PlansSection() {
 
        <div className="flex items-center justify-center mt-12 p-12">
         <Lock className=""/>
-       <p className=" flex justify-center"> Pagamento seguro · Cancele quando quiser · Sem taxas ocultas</p>
+       <p className=" ml-1.5 flex justify-center"> Pagamento seguro · Cancele quando quiser · Sem taxas ocultas</p>
     </div>
     </section>
   );
