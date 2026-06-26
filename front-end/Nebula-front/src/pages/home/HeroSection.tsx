@@ -1,6 +1,8 @@
 import NetworkMap from "../../components/layout/NetworkMap";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
+   const navigate = useNavigate();
   return (
     <section className="flex justify-between items-start px-20 py-16 relative">
 
@@ -25,9 +27,13 @@ export default function HeroSection() {
           <button className="bg-[#fff] hover:bg-[#F1EFE8] text-black px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer">
             Começar agora
           </button>
-          <button className="bg-[#181815] border border-white/10 hover:bg-[#22201c] text-white px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer">
+          <button 
+            onClick={() => navigate("/planos")} 
+            className="bg-[#fff] hover:bg-[#F1EFE8] text-black px-4 py-2 rounded-lg font-medium transition-colors cursor-pointer"
+          >
             Ver planos
           </button>
+
         </div>
 
         <div className="mt-4 flex items-center gap-2">
